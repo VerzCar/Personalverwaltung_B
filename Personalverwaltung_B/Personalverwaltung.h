@@ -1,3 +1,6 @@
+//In  dieser Klasse wird die Textdatei geladen und Funktionen für das einsehen der Textdatei
+//sowie Ausgaben zur Verfügugn gestellt
+
 #pragma once
 #include <vector>
 #include <fstream>

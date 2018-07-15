@@ -1,3 +1,5 @@
+//Eine Klasse um Objekte einer Person erstellen zu können
+
 #pragma once
 
 #include <string>
