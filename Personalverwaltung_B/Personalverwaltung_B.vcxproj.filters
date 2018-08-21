@@ -27,6 +27,12 @@
     <ClInclude Include="Personalverwaltung.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="StudentIn.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Professorin.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
