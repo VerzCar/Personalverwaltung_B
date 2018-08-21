@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include "Personalverwaltung.h"
 
-
+/*
 Personalverwaltung::Personalverwaltung(const std::string& dateiname)
 {
 	//Falls bereits was in der Datei steht diese Auslesen un in den Vector schreiben
@@ -63,3 +63,5 @@ void Personalverwaltung::dialog() const
 	} while (eingabeSuche != "x");
 
 }
+
+*/

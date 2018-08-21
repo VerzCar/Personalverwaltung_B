@@ -9,22 +9,16 @@ public:
 		Person(name_, vorname_), Matrikelnummer(matNummer_)
 	{};
 
-	virtual ~StudentIn() {};
+	~StudentIn() {};
 
 	const std::string& getMatrikelnummer() const
 	{
 		return Matrikelnummer;
 	}
 
-	virtual void toString() const override
+	virtual std::string toString() const override
 	{
-		std::cout << "Studentin/in "
-			<< Person::getVorname
-			<< " "
-			<< Person::getName
-			<< ", Mat.Nr: "
-			<< Matrikelnummer
-			<< '\n';
+		return ("Studentin/in " + Person::toString() + " " + Matrikelnummer);
 	}
 
 private:

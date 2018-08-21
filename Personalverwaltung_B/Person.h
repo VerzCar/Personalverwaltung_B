@@ -23,15 +23,16 @@ public:
 		return vorname;
 	}
 
-	virtual void toString() const = 0;
+	virtual std::string toString() const = 0;
 
 private:
 	std::string name;
 	std::string vorname;
 };
 
-inline void Person::toString() const
+inline std::string Person::toString() const
 {
-	std::cout << vorname << " " << name << '\n';
+	return vorname + " " + name;
 }
+
 

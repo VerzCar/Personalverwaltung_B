@@ -8,22 +8,17 @@ public:
 		Person(name_, vorname_), Lehrgebiet(lehrgebiet_)
 	{};
 
-	virtual ~Professorin() {};
+	~Professorin() {};
+
 
 	const std::string& getLehrgebiet() const
 	{
 		return Lehrgebiet;
 	}
 
-	virtual void toString() const override
+	virtual std::string toString() const override
 	{
-		std::cout << "Prof. "
-			<< Person::getVorname
-			<< " "
-			<< Person::getName
-			<< ", Lehrgebiet: "
-			<< Lehrgebiet
-			<< '\n';
+		return ("Prof. " + Person::toString() + " " + Lehrgebiet);
 	}
 
 private:
